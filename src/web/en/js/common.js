@@ -394,3 +394,4 @@ function changeLanguage() {
 	var changeLanguage =currentLanguage=='en'?'zh':'en';
 	location.pathname=location.pathname.replace(currentLanguage,changeLanguage);
 }
+  

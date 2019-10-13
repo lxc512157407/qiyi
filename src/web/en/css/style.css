@@ -220,7 +220,7 @@ a:visited {
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; 
     width: 100%
 }
 
@@ -1108,7 +1108,7 @@ a.blue-button {
     color: #fff;
     overflow: hidden;
     padding: 1rem 0;
-
+    
 }
 
 .back-top.icon-top {
@@ -1171,14 +1171,14 @@ a.blue-button {
 }
 
 .page-home .bg1 .slide1 {
-    background: url(../images/index/b1.jpg) no-repeat center center / cover
+    background: url(../images/b1.jpg) no-repeat center center / cover
 }
 
 .page-home .bg1 .slide2 {
-    background: url(../images/index/b2.jpg) no-repeat center center / cover
+    background: url(../images/b2.jpg) no-repeat center center / cover
 }
 .page-home .bg1 .slide3 {
-    background: url(../images/index/b3.jpg) no-repeat center center / cover
+    background: url(../images/b3.jpg) no-repeat center center / cover
 }
 .page-home .bg1 .slide2 .swiper-item {
     width: 60rem;
@@ -1747,7 +1747,7 @@ width: 100%;
 }
 .abotu_box{
     background: #ffffff;
-
+    
     margin-top: 1rem;
 }
 .abotu_box p{
