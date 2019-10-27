@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/css/css.css" afterDir="false" />
+    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="页面开发完成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Us.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/component/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/component/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <workItem from="1570986129612" duration="429000" />
       <workItem from="1571144235932" duration="12000" />
       <workItem from="1572158515296" duration="898000" />
-      <workItem from="1572160271584" duration="9945000" />
+      <workItem from="1572160271584" duration="11468000" />
     </task>
     <task id="LOCAL-00001" summary="页面开发完成">
       <created>1570986488249</created>
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570986488249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="页面开发完成">
+      <created>1572170376903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572170376903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +140,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="961" y="437" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572169208887" />
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1570986491912">
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1572170380295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1570986491912" />
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572170380295" />
     <state x="627" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1572160272651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,14 +151,14 @@
     <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" timestamp="1570986536593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572170339478">
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572171883547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572170339478" />
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572171883547" />
     <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/0.0.1920.1040@0.0.1920.1040" timestamp="1570986536593" />
-    <state x="554" y="112" width="786" height="801" key="find.popup" timestamp="1570984237835">
+    <state x="554" y="112" width="786" height="801" key="find.popup" timestamp="1572171859546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="112" width="786" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1570984237835" />
+    <state x="554" y="112" width="786" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1572171859546" />
   </component>
 </project>

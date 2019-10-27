@@ -15,9 +15,7 @@
 
 <body>
 
-    <div class="top">
         <?php include_once('./component/nav.php')?>
-    </div>
     <div class="banner banner_bg2"  style="background:url(images/5bd2ac0430f98.jpg) no-repeat center;">
         <div class="h5">
             <strong>加入我们</strong>

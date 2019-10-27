@@ -14,9 +14,7 @@
 
 <body>
 
-<div class="top">
     <?php include_once('./component/nav.php')?>
-</div>
 <div class="banner banner_bg2" style="background:url(images/5bd2af76b0b58.png) no-repeat center;">
     <div class="h5">
         <strong>联系我们</strong>

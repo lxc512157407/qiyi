@@ -14,9 +14,7 @@
 </head>
 <body>
 
-<div class="top">
     <?php include_once('./component/nav.php')?>
-</div>
 
 <div class="wrap">
     <div id="slide">

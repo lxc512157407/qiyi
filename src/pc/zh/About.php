@@ -12,9 +12,7 @@
     </style>
 </head>
 <body>
-<div class="top">
-    <?php include_once('./component/nav.php')?>
-</div>
+<?php include_once('./component/nav.php')?>
 <div class="banner banner_bg3" style="background:url(images/5bd2ac3918768.jpg) no-repeat center;">
     <div class="about_top">
         <strong>关于我们<span></span></strong>

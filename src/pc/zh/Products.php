@@ -13,11 +13,8 @@
 </head>
 
 <body>
-
-<div class="top">
     <!--        导航-->
     <?php require ('./component/nav.php'); ?>
-</div>
 <div class="banner banner_bg1" style="background:url(images/5bd2b2ea2cad8.jpg) no-repeat center;">
     <div class="h5">
         <strong>产品列表</strong>

@@ -12,6 +12,14 @@
         #index{
             color: #EBDFB5;
         }
+        .top{
+            background:rgba(0,0,0,0.4);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 999;
+        }
     </style>
 </head>
 
@@ -19,7 +27,10 @@
 <div id="dowebok">
     <div class="section">
         <!--        导航-->
-        <?php require ('./component/nav.php'); ?>
+        <div class="top">
+            <?php require ('./component/nav.php'); ?>
+        </div>
+
 
         <div class="slide">
             <img class="img_1" src="images/b_5d9d297fc0bf6.jpg" style="width:100%">
@@ -35,10 +46,8 @@
         </div>
     </div>
     <div class="section bg_2">
-        <div class="top index_top" style="height:50px;">
-
+        <div class="top" style="height:50px;">
            <?php require ('./component/menu.php'); ?>
-
         </div>
         <div class="i_title" style="margin-top:40px;">
             关于乔艺塑胶
@@ -60,7 +69,7 @@
     </div>
 
     <div class="section">
-        <div class="top index_top" style="height:50px;">
+        <div class="top" style="height:50px;">
             <?php require ('./component/menu.php'); ?>
         </div>
         <div class="i_title" style="margin-top:60px;">
@@ -115,7 +124,7 @@
         </div>
     </div>
     <div class="section bg_3">
-        <div class="top index_top" style="height:50px;">
+        <div class="top" style="height:50px;">
 
             <?php require ('./component/menu.php'); ?>
 
@@ -179,7 +188,7 @@
         </div>
     </div>
     <div class="section">
-        <div class="top index_top" style="height:50px;">
+        <div class="top" style="height:50px;">
 
             <?php require('./component/menu.php');?>
 
@@ -211,18 +220,8 @@
 
     </div>
     <div class="section bg_4">
-        <div class="top index_top" style="height:50px;">
-
-            <div class="memu">
-                <a class="now" href="Index.html">首页</a>
-                <a href="About.html">公司简介</a>
-                <a href="Products.html">产品列表</a>
-                <a href="Xingxiang.html">企业形象</a>
-                <a href="Us.html">加入我们</a>
-                <a href="Contact.html">联系我们</a>
-
-            </div>
-
+        <div class="top" style="height:50px;">
+            <?php require('./component/menu.php');?>
         </div>
         <img height="45%" src="images/5bd7b0b0efcb8.jpg" style="top:0px;left:0px;position:absolute">
         <?php require_once('./component/footer.php');?>

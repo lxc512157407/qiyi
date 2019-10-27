@@ -16,24 +16,7 @@
 </head>
 
 <body>
-
-    <div class="top">
-        <div class="logo"><img src="images/logo.png"></div>
-        <div class="memu">
-            <a href="Index.html">首页</a>
-            <a href="About.html">公司简介</a>
-            <a href="Products.html">产品列表</a>
-            <a href="Xingxiang.html" class="now">企业形象</a>
-            <a href="Us.html">加入我们</a>
-            <a href="Contact.html">联系我们</a>
-
-        </div>
-        <div class="c_memu">
-                        <a href="javaScript:changeLanguage()" class="now">中文</a>|
-
-						<a href="javaScript:changeLanguage()">ENGLISH</a>
-                    </div>
-    </div>
+    <?php include_once('./component/nav.php')?>
     <div class="banner banner_bg2"  style="background:url(images/5bd2ac613e288.jpg) no-repeat center;">
         <div class="h5">
             <strong>企业形象</strong>
