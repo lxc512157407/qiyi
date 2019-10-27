@@ -233,9 +233,17 @@ strong{
 .footer{
     width: 1100px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 20px;
     position: relative;
     text-align: left;
 }
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .footer .h3{
     color: #606060;
     font-size: 20px;
@@ -290,6 +298,7 @@ strong{
 }
 .firend{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .firend .h4{
     font-size: 14px;

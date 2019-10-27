@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/zh/component/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/css/css.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1S00izR0gwbn5i8tn9AqPrKYsWg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iqiyi" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\qiyi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work\qiyi\src" />
+      <recent name="F:\work\qiyi" />
+      <recent name="F:\work\qiyi\src\pc\en\images" />
+      <recent name="F:\work\qiyi\src\web\en\images" />
+      <recent name="F:\work\qiyi\src\web\en\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="" />
+      <created>1570685336498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570685336498</updated>
+      <workItem from="1570685337761" duration="647000" />
+      <workItem from="1570718683095" duration="857000" />
+      <workItem from="1570968504307" duration="176000" />
+      <workItem from="1570968690873" duration="3596000" />
+      <workItem from="1570972480430" duration="12693000" />
+      <workItem from="1570985910005" duration="209000" />
+      <workItem from="1570986129612" duration="429000" />
+      <workItem from="1571144235932" duration="12000" />
+      <workItem from="1572158515296" duration="898000" />
+      <workItem from="1572160271584" duration="9945000" />
+    </task>
+    <task id="LOCAL-00001" summary="页面开发完成">
+      <created>1570986488249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570986488249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="页面开发完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面开发完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1572170148088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1572170148088" />
+    <state x="727" y="267" key="FileChooserDialogImpl" timestamp="1570974587083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1570974587083" />
+    <state x="527" y="255" key="IDE.errors.dialog" timestamp="1570968538799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1570968538799" />
+    <state x="961" y="437" key="NewPhpFileDialog" timestamp="1572169208887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="961" y="437" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572169208887" />
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1570986491912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1570986491912" />
+    <state x="627" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1572160272651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="336" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572160272651" />
+    <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" timestamp="1570986536593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572170339478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572170339478" />
+    <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/0.0.1920.1040@0.0.1920.1040" timestamp="1570986536593" />
+    <state x="554" y="112" width="786" height="801" key="find.popup" timestamp="1570984237835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="112" width="786" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1570984237835" />
+  </component>
+</project>
