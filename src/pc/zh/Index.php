@@ -20,6 +20,9 @@
             left: 0;
             z-index: 999;
         }
+        .section+.section .top{
+            display: none;
+        }
     </style>
 </head>
 
@@ -67,7 +70,7 @@
             </video>
         </div>
     </div>
-
+<!--    产品列表-->
     <div class="section">
         <div class="top" style="height:50px;">
             <?php require ('./component/menu.php'); ?>
@@ -76,42 +79,42 @@
             <img class="cplb" src="images/cplb.png">
         </div>
         <div class="pro_list">
-            <a href="http://www.qiao-yi.com/index.php/Products/index/id/63">
+            <a href="Products.php?id=63">
                 <dl>
                     <dt>口红系列</dt>
 
                     <dd><img class="p_img" src="images/b_5bd17ed7b94d8.jpg"></dd>
                     <dd class="add"></dd>
                 </dl>
-            </a><a href="http://www.qiao-yi.com/index.php/Products/index/id/59">
+            </a><a href="Products.php?id=59">
             <dl>
                 <dt>唇彩系列</dt>
 
                 <dd><img class="p_img" src="images/b_5bd17ee41fb08.jpg"></dd>
                 <dd class="add"></dd>
             </dl>
-        </a><a href="http://www.qiao-yi.com/index.php/Products/index/id/61">
+        </a><a href="Products.php?id=61">
             <dl>
                 <dt>眼线系列</dt>
 
                 <dd><img class="p_img" src="images/b_5bd17eed3e738.jpg"></dd>
                 <dd class="add"></dd>
             </dl>
-        </a><a href="http://www.qiao-yi.com/index.php/Products/index/id/64">
+        </a><a href="Products.php?id=64">
             <dl>
                 <dt>睫毛膏系列</dt>
 
                 <dd><img class="p_img" src="images/b_5bd17efb9fd08.jpg"></dd>
                 <dd class="add"></dd>
             </dl>
-        </a><a href="http://www.qiao-yi.com/index.php/Products/index/id/53">
+        </a><a href="Products.php?id=53">
             <dl>
                 <dt>润唇膏系列</dt>
 
                 <dd><img class="p_img" src="images/b_5bd17f04ab888.jpg"></dd>
                 <dd class="add"></dd>
             </dl>
-        </a><a href="http://www.qiao-yi.com/index.php/Products/index/id/60">
+        </a><a href="Products.php?id=60">
             <dl>
                 <dt>粉盒系列</dt>
 
@@ -199,12 +202,12 @@
         <div class="ab_box">
             <div class="list">
                 <ul>
-                    <a href="/index.php/Xingxiang">
+                    <a href="Xingxiang.php">
                         <li class="pd4"><img alt="" src="images/b_5bcec1b1511a8.jpg"/><span>乔艺</span>
                         </li>
-                    </a> <a href="/index.php/Xingxiang">
+                    </a> <a href="Xingxiang.php">
                     <li class="pd3"><img alt="" src="images/b_5bc9933f07918.jpg"/><span>乔艺车间</span></li>
-                </a> <a href="/index.php/Xingxiang">
+                </a> <a href="Xingxiang.php">
                     <li class="pd2"><img alt="" src="images/b_5bcec1e3d5ea8.jpg"/><span>乔艺艺术</span></li>
                 </a>
                 </ul>
@@ -233,9 +236,8 @@
 <script>
 
     $(function () {
+        $('.section+.section .top').show();
         $('#dowebok').fullpage({
-            //sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-            //'paddingTop':'210px',
             'navigation': true,
             'navigationColor': '#6d6d6d',
             slidesNavigation: true,
@@ -243,7 +245,6 @@
             'resize': true,
 
         });
-
         $(window).resize(function () {
             autoScrolling();
         });

@@ -7,7 +7,7 @@
     <link href="css/css.css" rel="stylesheet">
     <style>
         /*当前的menu激活项*/
-        #viewpic{
+        #products{
             color: #EBDFB5;
         }
     </style>

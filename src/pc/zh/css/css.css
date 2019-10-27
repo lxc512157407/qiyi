@@ -110,7 +110,7 @@ strong{
 }
 .bg_4 .fp-tableCell{
     vertical-align: bottom;
-
+    position: relative;
 }
 .i_title{
     color: #CFAF80;

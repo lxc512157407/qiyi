@@ -6,7 +6,3 @@
     <a href="Us.php" id="us">加入我们</a>
     <a href="Contact.php" id="contact">联系我们</a>
 </div>
-<div class="c_memu">
-    <a class="now" href="javaScript:changeLanguage()">中文</a>|
-    <a href="javaScript:changeLanguage()">ENGLISH</a>
-</div>

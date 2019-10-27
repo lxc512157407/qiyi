@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="页面开发完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Us.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/component/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pc/zh/component/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/component/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/css/css.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1570986129612" duration="429000" />
       <workItem from="1571144235932" duration="12000" />
       <workItem from="1572158515296" duration="898000" />
-      <workItem from="1572160271584" duration="11468000" />
+      <workItem from="1572160271584" duration="28038000" />
     </task>
     <task id="LOCAL-00001" summary="页面开发完成">
       <created>1570986488249</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572170376903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="页面开发完成">
+      <created>1572171914842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572171914842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1572170148088" />
-    <state x="727" y="267" key="FileChooserDialogImpl" timestamp="1570974587083">
+    <state x="727" y="267" key="FileChooserDialogImpl" timestamp="1572180318271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1570974587083" />
+    <state x="727" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1572180318271" />
     <state x="527" y="255" key="IDE.errors.dialog" timestamp="1570968538799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="961" y="437" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572169208887" />
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1572170380295">
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1572171918122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572170380295" />
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572171918122" />
     <state x="627" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1572160272651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,14 +156,25 @@
     <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" timestamp="1570986536593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572171883547">
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572192464993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572171883547" />
+    <state x="739" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572192464993" />
     <state x="764" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/0.0.1920.1040@0.0.1920.1040" timestamp="1570986536593" />
     <state x="554" y="112" width="786" height="801" key="find.popup" timestamp="1572171859546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="112" width="786" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1572171859546" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/pc/zh/Index.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,15 +6,24 @@
     <link href="css/css.css" rel="stylesheet">
     <style>
         /*当前的menu激活项*/
-        #products{
+        #products {
             color: #EBDFB5;
+        }
+
+        .page a {
+            margin: 0 3px;
+        }
+
+        .page a.current {
+            border: none;
+            margin: 0;
         }
     </style>
 </head>
 
 <body>
-    <!--        导航-->
-    <?php require ('./component/nav.php'); ?>
+<!--        导航-->
+<?php require('./component/nav.php'); ?>
 <div class="banner banner_bg1" style="background:url(images/5bd2b2ea2cad8.jpg) no-repeat center;">
     <div class="h5">
         <strong>产品列表</strong>
@@ -24,34 +33,34 @@
 
 <div class="cat_memu">
     <ul class="cat_ul">
-        <a href="/index.php/Products/index/">
-            <li class="active">全部产品<span></span></li>
+        <a href="Products.php">
+            <li>全部产品<span></span></li>
         </a>
 
-        <a href="/index.php/Products/index/id/53">
+        <a href="Products.php?id=53">
             <li>润唇膏系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/61">
+        <a href="Products.php?id=61">
             <li>眼线系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/63">
+        <a href="Products.php?id=63">
             <li>口红系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/60">
+        <a href="Products.php?id=60">
             <li>粉盒系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/59">
+        <a href="Products.php?id=59">
             <li>唇彩系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/64">
+        <a href="Products.php?id=64">
             <li>睫毛膏系列<span></span></li>
         </a>
-        <a href="/index.php/Products/index/id/57">
+        <a href="Products.php?id=57">
             <li>唇油系列<span></span></li>
         </a>
     </ul>
     <div class="search search_off">
-        <form action="/index.php/Products/search" id="search_form" method="post">
+        <form action="Products.php?search=" id="search_form" method="post">
 
 
             <input class="swap_value" id="s" name="pro_search" type="text">
@@ -66,92 +75,49 @@
 
     <div class="p_list active">
         <ul>
-            <a href="/index.php/Products/viewpic/id/1355">
+            <a href="Viewpic.php?id=1355">
                 <li><img class="p_img" src="images/s_5d8eda67c9409.jpg"><!--ES-234--></li>
-            </a><a href="/index.php/Products/viewpic/id/1353">
-            <li><img class="p_img" src="images/s_5d8eda4ae2a54.jpg"><!--ES-233--></li>
-        </a><a href="/index.php/Products/viewpic/id/1352">
-            <li><img class="p_img" src="images/s_5d5b9aba14de0.jpg"><!--LB-100B--></li>
-        </a><a href="/index.php/Products/viewpic/id/1351">
-            <li><img class="p_img" src="images/s_5d5b9aa8e5686.jpg"><!--LB-100A--></li>
-        </a><a href="/index.php/Products/viewpic/id/1350">
-            <li><img class="p_img" src="images/s_5d55257f3c4ed.jpg"><!--LB-099--></li>
-        </a><a href="/index.php/Products/viewpic/id/1349">
-            <li><img class="p_img" src="images/s_5d527dea59e47.jpg"><!--LH-043--></li>
-        </a><a href="/index.php/Products/viewpic/id/1347">
-            <li><img class="p_img" src="images/s_5ccbe32988dd8.jpg"><!--EL-002--></li>
-        </a><a href="/index.php/Products/viewpic/id/1346">
-            <li><img class="p_img" src="images/s_5ccbe1e7af0c8.jpg"><!--EL-302B--></li>
-        </a><a href="/index.php/Products/viewpic/id/1345">
-            <li><img class="p_img" src="images/s_5ccbe14e4ea98.jpg"><!--EL-415--></li>
-        </a><a href="/index.php/Products/viewpic/id/1344">
-            <li><img class="p_img" src="images/s_5ccbe136080e8.jpg"><!--EL-416--></li>
-        </a><a href="/index.php/Products/viewpic/id/1343">
-            <li><img class="p_img" src="images/s_5ccbe06651b08.jpg"><!--ES-173--></li>
-        </a><a href="/index.php/Products/viewpic/id/1342">
-            <li><img class="p_img" src="images/s_5ccbddcc9b398.jpg"><!--ES-174--></li>
-        </a>
-        </ul>
-        <div class="page">
-            &nbsp;<span class='current'>1</span>&nbsp;<a href='/index.php/Products?&p=2'>&nbsp;2&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=3'>&nbsp;3&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=4'>&nbsp;4&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=5'>&nbsp;5&nbsp;</a> <a href='/index.php/Products?&p=6'>下5页</a> <a
-                href='/index.php/Products?&p=51'>末页</a> <a href='/index.php/Products?&p=2'>下一页</a>          <!--  <a href="#">上一页</a>
-            <a href="#" class="active">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">下一页</a>-->
-        </div>
-    </div>
-    <div class="p_list">
-        <ul>
-            <a href="/index.php/Products/viewpic/id/1352">
+            </a><a href="Viewpic.php?id=1353">
+                <li><img class="p_img" src="images/s_5d8eda4ae2a54.jpg"><!--ES-233--></li>
+            </a><a href="Viewpic.php?id=1352">
                 <li><img class="p_img" src="images/s_5d5b9aba14de0.jpg"><!--LB-100B--></li>
-            </a><a href="/index.php/Products/viewpic/id/1351">
-            <li><img class="p_img" src="images/s_5d5b9aa8e5686.jpg"><!--LB-100A--></li>
-        </a><a href="/index.php/Products/viewpic/id/1350">
-            <li><img class="p_img" src="images/s_5d55257f3c4ed.jpg"><!--LB-099--></li>
-        </a><a href="/index.php/Products/viewpic/id/1314">
-            <li><img class="p_img" src="images/s_5ccbb5f8705a8.jpg"><!--LB-012F--></li>
-        </a><a href="/index.php/Products/viewpic/id/1313">
-            <li><img class="p_img" src="images/s_5ccbb5d95dfe8.jpg"><!--LB-012--></li>
-        </a><a href="/index.php/Products/viewpic/id/1312">
-            <li><img class="p_img" src="images/s_5ccbb5a8067e8.jpg"><!--LB-017E--></li>
-        </a><a href="/index.php/Products/viewpic/id/1311">
-            <li><img class="p_img" src="images/s_5ccbb5132da78.jpg"><!--LB-021G--></li>
-        </a><a href="/index.php/Products/viewpic/id/1310">
-            <li><img class="p_img" src="images/s_5ccbb4830e4e8.jpg"><!--LB-044E--></li>
-        </a><a href="/index.php/Products/viewpic/id/1309">
-            <li><img class="p_img" src="images/s_5ccbb4751b648.jpg"><!--LB-044D--></li>
-        </a><a href="/index.php/Products/viewpic/id/1308">
-            <li><img class="p_img" src="images/s_5ccbb4674e908.jpg"><!--LB-044C--></li>
-        </a><a href="/index.php/Products/viewpic/id/1307">
-            <li><img class="p_img" src="images/s_5ccbb4430ca58.jpg"><!--LB-044--></li>
-        </a><a href="/index.php/Products/viewpic/id/1306">
-            <li><img class="p_img" src="images/s_5ccbb4174b898.jpg"><!--LB-045E--></li>
-        </a>
+            </a><a href="Viewpic.php?id=1351">
+                <li><img class="p_img" src="images/s_5d5b9aa8e5686.jpg"><!--LB-100A--></li>
+            </a><a href="Viewpic.php?id=1350">
+                <li><img class="p_img" src="images/s_5d55257f3c4ed.jpg"><!--LB-099--></li>
+            </a><a href="Viewpic.php?id=1349">
+                <li><img class="p_img" src="images/s_5d527dea59e47.jpg"><!--LH-043--></li>
+            </a><a href="Viewpic.php?id=1347">
+                <li><img class="p_img" src="images/s_5ccbe32988dd8.jpg"><!--EL-002--></li>
+            </a><a href="Viewpic.php?id=1346">
+                <li><img class="p_img" src="images/s_5ccbe1e7af0c8.jpg"><!--EL-302B--></li>
+            </a><a href="Viewpic.php?id=1345">
+                <li><img class="p_img" src="images/s_5ccbe14e4ea98.jpg"><!--EL-415--></li>
+            </a><a href="Viewpic.php?id=1344">
+                <li><img class="p_img" src="images/s_5ccbe136080e8.jpg"><!--EL-416--></li>
+            </a><a href="Viewpic.php?id=1343">
+                <li><img class="p_img" src="images/s_5ccbe06651b08.jpg"><!--ES-173--></li>
+            </a><a href="Viewpic.php?id=1342">
+                <li><img class="p_img" src="images/s_5ccbddcc9b398.jpg"><!--ES-174--></li>
+            </a>
         </ul>
-        <div class="page">
-            &nbsp;<span class='current'>1</span>&nbsp;<a href='/index.php/Products?&p=2'>&nbsp;2&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=3'>&nbsp;3&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=4'>&nbsp;4&nbsp;</a>&nbsp;<a
-                href='/index.php/Products?&p=5'>&nbsp;5&nbsp;</a> <a href='/index.php/Products?&p=6'>下5页</a> <a
-                href='/index.php/Products?&p=51'>末页</a> <a href='/index.php/Products?&p=2'>下一页</a></div>
+        <div class="page" id="page"></div>
     </div>
-
 </div>
 <!--底部-->
-<?php require_once('./component/footer.php');?>
+<?php require_once('./component/footer.php'); ?>
 <script src="js/jquery.min.js"></script>
 <script>
     function changeLanguage() {
-        var currentLanguage= /\/en\//i.test(location.pathname)?'en':'zh';
-        var changeLanguage =currentLanguage=='en'?'zh':'en';
-        location.pathname=location.pathname.replace(currentLanguage,changeLanguage);
+        var currentLanguage = /\/en\//i.test(location.pathname) ? 'en' : 'zh';
+        var changeLanguage = currentLanguage == 'en' ? 'zh' : 'en';
+        location.pathname = location.pathname.replace(currentLanguage, changeLanguage);
     }
+    $(function () {
+        var search = location.search || '';
+        $('[href$="Products.php' + search + '"]>li').addClass('active');
+
+    });
     $(".search").mousemove(function () {
         $(this).removeClass("search_off");
     }).mouseleave(function () {
@@ -161,8 +127,6 @@
     $("#search1").click(function () {
         $("#search_form").submit();
     });
-
-
     $().ready(function () {
         $(".cat_ul li").click(function () {
             //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
@@ -173,6 +137,74 @@
             $(this).addClass("active").siblings().removeClass("active");
         });
     });
+    /**
+     * currentPage 当前页码 默认为1
+     * totalpage 总页数 默认为2000
+     * id 当前选择的产品品类id
+     *
+     * */
+    function productPage(currenPage,totalPage,id) {
+        var pageLeft=[];
+        if(currenPage!=1){
+            pageLeft.push({label:'上一页',value:currenPage-1});
+        }
+        if(currenPage>5){
+            pageLeft.push(
+                {label:'首页',value:1},
+                {label:'上5页',value:currenPage-5}
+                );
+        }
+        /**
+         * 中间五页的第一个个位置的页面
+         * @type {number}
+         */
+        var firstPosition=1;
+        /**
+         * 总页数-根据数据实时返回
+         * @type {number}
+         */
+        var pageRight=[{label:'下5页',value:currenPage+5},{label:'末页',value:totalPage},{label:'下一页',value:currenPage+1}];
+        var isShowLeft=currenPage / 5>1;
+        var ceilPages=Math.ceil(currenPage / 5);
+        var floorPages=Math.floor(currenPage/5);
+        //fixed修正，当前页如果能够整除说明是这一组的组后一个元素
+        var firstPosition=(currenPage%5?floorPages:floorPages-1)*5+1;
+        var isShowRight=ceilPages*5<totalPage;
+        var pageArray=[];
+        var temp=5,tempPage;
+        while (temp>0&&firstPosition<=totalPage){
+            tempPage=firstPosition++;
+            pageArray.push({label:tempPage,value:tempPage});
+            temp--;
+        }
+        var pages=[];
+        if(isShowLeft){
+            pages=pages.concat(pageLeft);
+        }
+        pages=pages.concat(pageArray);
+        if(isShowRight){
+            pages=pages.concat(pageRight);
+        }
+        var pageStr='';
+        pages.forEach(function (val,ind) {
+            pageStr+='<a data-value="'+val.value+'"'+(currenPage==val.value?' class="current"':'')+'>'+val.label+'</a>';
+        })
+        $('#page').html(pageStr)
+        .off('click').on('click',onPageClick);
+        function onPageClick(event) {
+            var a=$(event.target).data('value');
+            location.href='Products.php?id='+id+'&p='+a;
+        }
+    }
+    var searchParams=new URLSearchParams(location.search);
+    //获取不到页码则默认为第一页
+    var currentPage=parseInt(searchParams.get('p'))||1;
+    //获取不到id,则默认全部
+    var id=searchParams.get('id')||'';
+
+    productPage(currentPage,2000,id);
+
+
 
 </script>
 </body>
