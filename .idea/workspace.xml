@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="页面开发完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Viewpic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/component/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/component/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/component/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/component/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/css/css.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
       <workItem from="1570986129612" duration="429000" />
       <workItem from="1571144235932" duration="12000" />
       <workItem from="1572158515296" duration="898000" />
-      <workItem from="1572160271584" duration="28038000" />
+      <workItem from="1572160271584" duration="28309000" />
     </task>
     <task id="LOCAL-00001" summary="页面开发完成">
       <created>1570986488249</created>
@@ -105,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572171914842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="页面开发完成">
+      <created>1572192484764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572192484764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="961" y="437" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572169208887" />
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1572171918122">
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2" timestamp="1572192488536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572171918122" />
+    <state x="539" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572192488536" />
     <state x="627" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1572160272651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
