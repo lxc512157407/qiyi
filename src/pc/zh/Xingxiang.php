@@ -56,9 +56,7 @@
     </div>
 
 </div>    <!-- 底部 -->
-     <div class="footer_box">
-         <?php require_once('./component/footer.php');?>
-    </div>
+
     <script>
         function changeLanguage() {
             var currentLanguage= /\/en\//i.test(location.pathname)?'en':'zh';

@@ -30,10 +30,7 @@
 <div id="dowebok">
     <div class="section">
         <!--        导航-->
-        <div class="top">
             <?php require ('./component/nav.php'); ?>
-        </div>
-
 
         <div class="slide">
             <img class="img_1" src="images/b_5d9d297fc0bf6.jpg" style="width:100%">

@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="页面开发完成">
+      <change afterPath="$PROJECT_DIR$/src/pc/en/component/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/en/component/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/en/component/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/en/images/add_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pc/en/video/video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Viewpic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/en/css/en_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/css/en_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iqiyi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pc/en/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,9 +62,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\work\qiyi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\work\qiyi\src" />
       <recent name="F:\work\qiyi" />
@@ -56,6 +69,23 @@
       <recent name="F:\work\qiyi\src\web\en\images" />
       <recent name="F:\work\qiyi\src\web\en\css" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pc/en/images" />
+      <recent name="$PROJECT_DIR$/src/pc/en" />
+      <recent name="F:\work\qiyi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,7 +202,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/pc/zh/Index.php</url>
-          <line>52</line>
+          <line>49</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

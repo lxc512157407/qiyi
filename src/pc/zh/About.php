@@ -63,13 +63,7 @@
         <li><img src="images/b_5c490d403f868.jpg"></li>
 
     </ul>
-
-
 </div>
-
-
-<!-- 底部 -->
-<div class="clear"></div>
 
 <div class="footer_box">
     <?php include_once('./component/footer.php'); ?>

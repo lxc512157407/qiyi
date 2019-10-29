@@ -33,7 +33,7 @@
 
 <div class="cat_memu">
     <ul class="cat_ul">
-        <a href="Products.php">
+        <a href="Products.php?id=">
             <li>全部产品<span></span></li>
         </a>
 
@@ -60,13 +60,12 @@
         </a>
     </ul>
     <div class="search search_off">
-        <form action="Products.php?search=" id="search_form" method="post">
+        <form action="Products.php?search=" id="search_form" method="get">
 
 
-            <input class="swap_value" id="s" name="pro_search" type="text">
+            <input class="swap_value" id="s" name="search" type="text">
             <img id="search1" src="images/search.png">
             <div class="button"><input id="go" type="submit" value=""/></div>
-            <input name="__hash__" type="hidden" value="fa75cb79dab6934b7e40b86e031b1062"/></form>
     </div>
 </div>
 
@@ -113,11 +112,7 @@
         var changeLanguage = currentLanguage == 'en' ? 'zh' : 'en';
         location.pathname = location.pathname.replace(currentLanguage, changeLanguage);
     }
-    $(function () {
-        var search = location.search || '';
-        $('[href$="Products.php' + search + '"]>li').addClass('active');
 
-    });
     $(".search").mousemove(function () {
         $(this).removeClass("search_off");
     }).mouseleave(function () {
@@ -136,6 +131,12 @@
             //改变选中时候的选项框的样式，移除其他几个选项的样式
             $(this).addClass("active").siblings().removeClass("active");
         });
+    });
+    $(function () {
+        var searchObj=new URLSearchParams(location.search);
+        var id=searchObj.get('id')||'';
+        $('[href$="Products.php?id=' + id + '"]>li').addClass('active');
+
     });
     /**
      * currentPage 当前页码 默认为1
