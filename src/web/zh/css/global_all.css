@@ -64,10 +64,6 @@ textarea,input{border: none;}
     display: inline-block;
     vertical-align: middle
 }
-@font-face {
-    font-family: fontello;
-    src: url(/font/fontello.woff?t=1) format("woff")
-}
 
 [class*=" portfolio-icon-"],
 [class^=portfolio-icon-] {
@@ -862,7 +858,6 @@ textarea,input{border: none;}
 
 .swiper4 #next4,.swiper4 #prev4{
     top:50%;
-    margin-top: ;
     background-size: 22px 22px;
     margin-top: 0px;
 }

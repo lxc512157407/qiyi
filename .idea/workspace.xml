@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pc/en/component/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/en/component/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/en/component/nav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/en/images/add_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pc/en/video/video.mp4" afterDir="false" />
+    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="英文版整合">
+      <change afterPath="$PROJECT_DIR$/src/web/en/component/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/en/component/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/en/video/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/zh/component/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/zh/component/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/zh/video/video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Viewpic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/Xingxiang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/en/css/en_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/en/css/en_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/zh/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/Viewpic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/en/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/en/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Viewpic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Viewpic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/Xingxiang.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/Xingxiang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/zh/css/global_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/zh/css/global_all.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pc/en/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/web/en" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +74,8 @@
       <recent name="F:\work\qiyi\src\web\en\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/web/en" />
+      <recent name="$PROJECT_DIR$/src/web/zh" />
       <recent name="$PROJECT_DIR$/src/pc/en/images" />
       <recent name="$PROJECT_DIR$/src/pc/en" />
       <recent name="F:\work\qiyi" />
@@ -143,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572321904550</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="英文版整合">
+      <created>1572322819997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572322819997</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
