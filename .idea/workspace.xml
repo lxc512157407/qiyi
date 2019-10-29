@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="页面开发完成">
+    <list default="true" id="5a5b5288-e36d-46ff-bf1a-f288feffd294" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/pc/en/component/footer.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pc/en/component/menu.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pc/en/component/nav.php" afterDir="false" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572192484764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="英文版整合">
+      <created>1572321904549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572321904550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="页面开发完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面开发完成" />
+    <MESSAGE value="英文版整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="英文版整合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="691" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1572170148088">
